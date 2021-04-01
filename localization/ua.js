@@ -7,7 +7,7 @@ module.exports = {
 	multipleOf: (value) => `не кратне ${value}`,
 
 	minLength: (value) => {
-		let text = `не коротше нiж ${value} смвол`;
+		let text = `не коротше нiж ${value} символ`;
 		if (value === 1) {
 			return text;
 		}
@@ -19,7 +19,7 @@ module.exports = {
 		return text;
 	},
 	maxLength: (value) => {
-		let text = `не довше нiж ${value} смвол`;
+		let text = `не довше нiж ${value} символ`;
 		if (value === 1) {
 			return text;
 		}
