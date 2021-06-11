@@ -1,6 +1,6 @@
 {
 	"name": "novapay-ajv-errors",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "ajv-errors localization",
 	"main": "index.js",
 	"author": "shyhanskyi.d@novapay.ua",

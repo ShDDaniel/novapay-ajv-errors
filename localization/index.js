@@ -1,2 +1,4 @@
 const ua = require('./ua');
-module.exports = { ua };
+const ru = require('./ru');
+
+module.exports = { ua, ru };
